@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+}
+
+strong{
+    font: var(--title-sm);
+    color: var(--gray-600);
+    padding: 10px;
+}
+
+article p{
+    font: var(--text-sm);
+    padding: 10px;
+}
+
+article img{
+    border-radius: 8px;
+    width: 306px;
+    height: 156px;
+    margin-bottom: 12px;
+}
+
+article{
+    background-color: var(--gray-300);
+    border-radius: 12px;
+
+    text-align: left;
+    width: 330px;
+    height: 280px;
+    padding: 10px;
+
+}
+
+article:hover{
+    border: 1px solid var(--gray-500);
+}
+
+.servicos{
+    text-align: center;
+    background-color: var(--gray-100);
+
+    padding: 88px 120px;
+}
